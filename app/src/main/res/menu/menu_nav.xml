@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_um">
+        <item android:title="Gastos">
+            <menu>
+                <item
+                    android:id="@+id/nav_item_um"
+                    android:title="Novo Lançamento">
+
+                </item>
+                <item
+                    android:id="@+id/nav_item_dois"
+                    android:title="Lançamento">
+
+                </item>
+                <item
+                    android:id="@+id/nav_item_tres"
+                    android:title="Categorias">
+
+                </item>
+            </menu>
+        </item>
+    </group>
+
+    <group android:id="@+id/menu_dois">
+
+        <item android:title="@string/app_name">
+            <menu>
+                <item
+                    android:id="@+id/nav_item_quatro"
+                    android:title="Informações">
+
+                </item>
+                <item
+                    android:id="@+id/nav_item_cinco"
+                    android:title="Ajuda">
+
+                </item>
+            </menu>
+        </item>
+
+        <item android:title="Perfil">
+            <menu>
+                <item
+                    android:id="@+id/nav_item_seis"
+                    android:title="Meu Perfil">
+
+                </item>
+                <item
+                    android:id="@+id/nav_sete"
+                    android:title="Sair">
+
+                </item>
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.InformacoesActivity"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.InformacoesActivity"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="277dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/titulo_empresa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="1dp"
+                android:text="Brabank"
+                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="226dp"
+                android:layout_below="@+id/titulo_empresa"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="-2dp"
+                android:layout_marginTop="2dp"
+                android:padding="8dp"
+                android:text="@string/empresa_descricao"
+                android:textAlignment="viewStart"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/logo_descricao"
+                android:layout_width="159dp"
+                android:layout_height="242dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo_bg_yellow" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/cor_titulo"
+            android:gravity="center"
+            android:text="Missão"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/missao" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/cor_titulo"
+            android:gravity="center"
+            android:text="@string/visao_titulo"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/visao"
+            android:padding="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/cor_titulo"
+            android:gravity="center"
+            android:text="@string/valores_titulo"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/valores"
+            android:padding="8dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
+

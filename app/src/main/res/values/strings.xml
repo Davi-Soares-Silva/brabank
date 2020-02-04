@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Brabank</string>
+    <string name="descri_o">Descrição</string>
+    <string name="missao">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="empresa_descricao">A Brabank é uma empresa startup brasileira no segmento de serviços financeiros digitais. Criada em 2019 por um grupo de alunos formandos do Senai Jandira já alcança um grande mercado e vem crescendo esponencialmente sua carteira de clientes a cada dia.</string>
+    <string name="visao_titulo">Visão</string>
+    <string name="visao">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It</string>
+    <string name="valores_titulo">Valores</string>
+    <string name="valores">t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English.</string>
+    <string name="nome_categoria">Nome Categoria</string>
+    <string name="saldo_atual">Saldo Atual</string>
+    <string name="saldo">R$ 00,00</string>
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Fechar</string>
+    <string name="salvar">Salvar</string>
+    <string name="ajuda">Ajuda</string>
+    <string name="data">Data</string>
+</resources>

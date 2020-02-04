@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.NovoLancamentoActivity">
+
+    <include layout="@layout/toolbar"> </include>
+
+    <RadioGroup
+        android:id="@+id/rgTipoLancamentoCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/rdDespesaNovoLancamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Despesa" />
+
+        <RadioButton
+            android:id="@+id/rdReceitaNovoLancamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receita"
+
+            />
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spnNovoLancamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="8dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:popupBackground="@color/colorAccent">
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/edtDescricaoNovoLancamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="32dp"
+        android:hint="@string/descri_o"
+        />
+
+    <EditText
+        android:id="@+id/edtValorNovoLancamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="32dp"
+        android:hint="Valor (R$ 0,00)"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/edtData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/data"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:inputType="date"/>
+
+</LinearLayout>

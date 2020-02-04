@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f1e463</color>
+    <color name="colorPrimaryDark">#FFE800</color>
+    <color name="colorAccent">#1D1C1C</color>
+    <color name="cor_background_login">#000000</color>
+    <color name="cor_secundaria">#000000</color>
+    <color name="cor_titulo">#1b1a1a</color>
+    <color name="cor_toolbar">#504f3e</color>
+</resources>
